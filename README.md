@@ -1,5 +1,10 @@
 # Geospatial Data Analysis Course
-Final material from the Winter 2020 offering at the University of Washington
+Course material from the Winter 2020 offering at the University of Washington  
+
+David Shean  
+Civil and Environmental Engineering  
+University of Washington  
+https://dshean.github.io
 
 ## Overview
 This course explores advanced geospatial data processing, analysis/interpretation, and visualization techniques using Python, shell scripting, and open-source tools/libraries (GDAL, NumPy, Pandas and derivatives like geopandas and xarray). We will explore fundamental concepts and real-world data science applications involving large geospatial datasets.
