@@ -1,5 +1,5 @@
-# Geospatial Data Analysis, Winter 2020
-Final material for Winter 2020 offering at the University of Washington
+# Geospatial Data Analysis Course
+Final material from the Winter 2020 offering at the University of Washington
 
 ## Overview
 This course explores advanced geospatial data processing, analysis/interpretation, and visualization techniques using Python, shell scripting, and open-source tools/libraries (GDAL, NumPy, Pandas and derivatives like geopandas and xarray). We will explore fundamental concepts and real-world data science applications involving large geospatial datasets.
@@ -9,8 +9,9 @@ This course explores advanced geospatial data processing, analysis/interpretatio
 ## Structure
 Mixed graduate and upper-level undergraduate course:
 * One 3-hour lab session per week for 10-week quarter
-* Reading assignments 3rd-party online resources completed prior to lab
-* Each lab begins with 0.5-1.0 hour interactive demo/discussion, followed by exercises/homework completed in small groups
+* Students complete online reading assignments prior to lab
+* Each lab begins with 0.5-1.0 hour interactive discussion/demo
+* Students then continue independently attempt exercises in a Jupyter notebook in small groups, and finish for homework (due the following week)
 * Students report ~6-12 hours outside of lab required to complete reading and homework
 
 ## Modules
