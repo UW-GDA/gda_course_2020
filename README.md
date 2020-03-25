@@ -24,7 +24,23 @@ Mixed graduate and upper-level undergraduate course:
 1.
 
 ## Note for instructors
-I've attempted to compile resources for others who are or will be teaching similar material (or using similar resources)
+I've attempted to compile resources for others who are or will be teaching similar material (or using similar resources).
+If you find it useful, please 
+
+## Contributions
+If you find errors or make some improvements, please consider creating a Github Issue or submitting a Pull Request. I view this as an open, collaborative effort. I expect to teach this course in the coming years, and will continue refining the material, so I appreciate all of the help I can get.
+
+## Acknowledgements
+Many individuals have contributed to the content development and infrastructure required for this course:
+* First and foremost, the brave GDA students who enrolled in this course duing winter 2019 and winter 2020 provided critical feedback, suggestions and often elegant solutions to challenging problems
+* Chris Land (UW-IT) and Scott Henderson (UW eScience/ESS) provided Jupyterhub configuration and support during 2020
+* Amanda Tan (UW eScience) provided Jupyterhub configuration and support during 2019
+* Bill Schaefer (UW-IT) and Rob Fatland (UW-IT/eScience) provided spport and management during 2020 and 2019, respectively
+* Friedrich Knuth provided material on conda and support
+* Anthony Arendt and the UW eScience Geohackweek leadership team for providing a foundation and resources for interactive education and software development
+
+## Citation
+[Insert Zenodo DOI]
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
