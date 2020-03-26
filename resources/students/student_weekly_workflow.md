@@ -11,8 +11,7 @@
 
 ## Turning in Assignments
 1. Before the due date (midnight the following Friday)
-1. If turning in Jupyter notebook:
-    Ensure your figures are rendering:
+1. If turning in Jupyter notebook, see section below on "Prepare Jupyter notebook for submission"
 1. Go to Canvas, and submit the github url for your assignment repo
 
 1. I will follow the Canvas link, review your code/answers, create a “feedback” branch on your repo, and open a Pull Request (PR) as a placeholder for inline comments/discussion.
