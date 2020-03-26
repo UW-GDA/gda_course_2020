@@ -1,4 +1,4 @@
-# Geospatial Data Analysis Course
+# Geospatial Data Analysis with Python
 Course material from the Winter 2020 offering at the University of Washington  
 
 David Shean  
