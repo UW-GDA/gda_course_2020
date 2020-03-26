@@ -20,8 +20,8 @@ Mixed graduate and upper-level undergraduate course:
 * Students report ~6-12 hours outside of lab required to complete reading and homework
 
 ## Reproducing the GDA Course environment
-[Insert Binder badge]  
-Clicking this button will launch the GDA image on AWS us-west-2 using a pangeo binder. This will provide the same environment that was available on the course Jupyterhub during winter 2020. However, the session is ephemeral and your home directory will not persist, so use this only for running tutorials and other short-lived demos!
+[![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/gda_w2020/master?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_w2020%26amp%3Bbranch=master%26amp%3Burlpath=lab)
+Clicking this button will launch the GDA image on [mybinder.org](https://mybinder.org). This will provide the same environment that was available on the course Jupyterhub during winter 2020. However, the session is ephemeral and your home directory will not persist, so use this only for running tutorials and other short-lived demos!
 
 ### Reproducing locally
 See the [Week 10 materials](./modules/10_Conda_Pangeo_Dask).
