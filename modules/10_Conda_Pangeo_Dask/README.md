@@ -36,7 +36,7 @@ One thing that I forgot to mention - if you are using the pangeo hub, when you a
     * In-class demo of using Dask KubeCluster for scaleable processing
 
 ## Other Discussion topics
-
+### Licenses, Zenodo and other options for publishing repos
 ### Collaboration with git/Github
 * forking, merging upstream changes, pull requests
 
