@@ -9,6 +9,10 @@ https://dshean.github.io
 ## Overview
 This course explores advanced geospatial data processing, analysis/interpretation, and visualization techniques using Python, shell scripting, and open-source tools/libraries (GDAL, NumPy, Pandas and derivatives like geopandas and xarray). We will explore fundamental concepts and real-world data science applications involving large geospatial datasets.
 
+Data Engineering and Data Science  
+Learn how to answer questions using latest tools, but also how to ask the right questions  
+Limited emphasis machine learning, but scattered throughout labs (e.g., K-means clustering in 03)
+
 ## Syllabus
 
 ## Structure

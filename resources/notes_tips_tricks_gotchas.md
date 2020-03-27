@@ -11,7 +11,6 @@ David Shean
 `git config --global user.email "email@example.com"`
 
 ## Authentication
-
 #### Two-factor authentication
 * Disabled by default (for new account)
 * If you're using an existing Github account and previously enabled two-factor authentication, you may need to disable for successful Github authentication from terminal on Jupyterhub
@@ -31,12 +30,12 @@ David Shean
 *May no longer be relevant*
 Github can fail to render notebooks. Sometimes reloading works.
 
-If notebook is in a public repo, go to nbviewer.org and paste the url to the notebook.
+If notebook is in a public Github repo, go to https://nbviewer.jupyter.org/ and paste the url to the notebook.
 
-## GDA Organization
+## Github Organization
 
-#### To make your repo visible to GDA students/instructors
-Settings -> Manage Access - > Invite Teams (Green Button) -> gda_w2020_students, and grant read access
+#### To make your repo visible to students/instructors in the organization
+Settings -> Manage Access - > Invite Teams (Green Button) -> gda_w2020_students, and grant read access to desired teams
 
 #### To make your project repo public for the world
 Settings -> Options (left menu) -> Danger Zone -> Make public
@@ -61,23 +60,20 @@ If things are not working, first try reloading the tab/window in your browser
 * 8 GB RAM
 * 40 GB storage
 
-### Jupyterhub Kernel Restarts due to memory limits
+### Restarting Jupyterhub Server
+* All students have the ability to stop and restart their own server on the Jupyterhub (don’t need to ask instructor or IT to help).
+* File --> Hub Control Panel --> Stop My Server (wait a ~30 seconds, then start again)
+* May need to restart server to fetch the latest environment (i.e., new packages added to default conda environment), or as a first troubleshooting step if you are encountering unexplained issues.
 
-As for memory issues, some good strategies:
-Avoid duplicating large arrays ( as in “dynamically process original and plot in one command” instead of “process original, store as new array, then plot new array”)
-Avoid unnecessarily increasing bit depth (e.g., loading a UInt16 array as float64)
-Release memory from arrays that are no longer needed with myarray = None (see https://stackoverflow.com/a/35316944)
-
-If you see this, it is likely that your server was shut down due to inactivity.  Reload the page in your browser.
-
-## Restarting your Jupyterhub Server
-FYI, you all have the ability to stop your own server on the Jupyterhub (you don’t need to ask me to do it).
-File --> Hub Control Panel --> Stop My Server (wait a ~30 seconds, then start again)
-In the future, you can use this to fetch the latest environment  (i.e., if I added new packages), or as a first troubleshooting step if you are encountering unexplained issues (like the network connectivity problems some of you experienced yesterday).
-
-## Errors
-Dask Server Error
-Failed to write `*.ipynb`
+### Common Errors
+* `Dask Server Error`
+    * If you see this, it is likely that your server was shut down due to inactivity.  Reload the page in your browser, and restart server if necessary.
+* `Failed to write *.ipynb
+    * Temporary network interruption, try again
+    * Check to make sure you haven't filled the disk (available storage in your home directory)
+        * `cd ~ ; df .` (should be less than 100%)
+* `Kernel died`
+    * Likely ran out of memory, restart kernel
 
 # Jupyter notebooks
 
@@ -86,6 +82,15 @@ Failed to write `*.ipynb`
 import warnings
 warnings.filterwarnings('ignore')
 ```
+
+### Best practices for memory management
+* Avoid duplicating large arrays ( as in “dynamically process original and plot in one command” instead of “process original, store as new array, then plot new array”)
+* Avoid unnecessarily increasing bit depth (e.g., loading a `UInt16` array as `float64` quadruples memory footprint)
+* Release memory from arrays that are no longer needed with `myarray = None` (see https://stackoverflow.com/a/35316944)
+* Use Dask!
+
+### Cells have strange spacing, or don't look right
+* Reload in your browser to start
 
 # Matplotlib
 Review very useful FAQ here: 

@@ -1,9 +1,14 @@
 # Weekly Procedures for Instructor
 
-## Prepare notebook (including solutions)
+## Prepare solutions notebook
+* Master notebook with all code, markdown
+* Use a '*_solutions.ipynb' filename
 
 ## Prepare student notebook
-* Manually duplicate, delete code/answers for student exercises
+* Manually duplicate the solutions notebook and rename, removing '_solutions'
+* Delete desired code or output
+
+*Note: More sophisticated approaches can use tags to programatically remove code*
 
 ## Prepare a new "starter code" repository in the GDA organization
 1. Click green "New" button to create new repo
@@ -12,99 +17,111 @@
     * Private 
     * Initialize with README.md
     * Add .gitignore for Python
-1. Clone the repo to the Jupyterhub
+1. Clone the repo to local or Jupyterhub (wherever student notebook was prepared)
 1. Add the student notebook(s), sample data, and any other relevant files
-    1. Git add, commit, push
-1. On Github, update README.md with relevant instructions
+    1. git add, commit, push
+1. Optional: update README.md with relevant instructions
 1. On Github, create a new feedback branch
-    * Note March 2020, Github Classroom now has an option to do this when creating assignment
+    * *Note as of March 2020, Github Classroom now has an option to do this when creating assignment*
 
 ## Prepare Github Classroom assignment:
-1. Go to https://classroom.github.com/classrooms/
+1. Go to https://classroom.github.com/classrooms/ and select the appropriate class
 1. New Individual Assignment
-Name 02_Python_Core_Packages
-Private
-Find starter repo
-Post assignment invitation url to Slack
-If updates are needed:
-git remote add upstream https://github.com/my_class_org/assignment_starter
-git pull upstream master
+1. Provide a name that is consistent with above: 02_Python_Core_Packages
+1. Private (otherwise, students can see each other's answers before deadline)
+1. Add starter code
+    * Copy/paste the starter code repo name "02_Python_Core_Packages", then select
+    * Select "Import starter code using source importer" (haven't tried template option)
+1. Don't select deadline (set this on Canvas)
+1. Don't Grant admin repo access
+1. Enable feedback pull requests
+    * Untested, did this for Week10, and students could not see markdown files in thier accepted assignment repo
 
-## Create assignment in Canvas
-### First Week
-20 points
-02_Python_Core_Packages
-Add the following description:
-Accept the github assignment here: [insert assignment invitation url]. When completed, submit the url to your repo here on canvas.
-Select url submission
-Due date Friday midnight
+## Create Canvas assignment
+#### First Week
+* Type: Assignment
+* Name: 02_Python_Core_Packages
+* Due: midnight no the following Friday
+* Points: 20
+* More Options:
+> Accept the github assignment here: [insert assignment invitation url]. When completed, submit the url to your repo here on canvas.
+    * Submission Type: Online, Website URL
+* Save and Publish
 
-### Subsequent Weeks
-Duplicate previous assignment
-Udpdate Name
-Update url
-Update 
+#### Subsequent Weeks
+* Duplicate previous assignment
+    * Udpdate Name
+    * Update Assignment url
+    * Update Due Date
 
 ## Post to Slack
 * Create new channel: 02_Python_Core_Packages
-* Post link to Github Classroom assignment ()
+* Post link to Github Classroom assignment
 * Post link to Canvas assignment for submission
 
+#### Optional: Updating assignment repo
+* If you discover errors or need to update the assignment materials after distribution...
+* Can be messy with Jupyter notebooks, after students start modifying the assignment notebook, especially if they are new to git
+* If updates are absolutely needed, students can do the following:
+    * `git remote add upstream https://github.com/UW-GDA/02_Python_Core_Packages`
+    * `git pull upstream master`
+
 ## Teach it!
+During class:  
 * Open slack channel
-* Click on link
+* Follow Github Classroom Assignment link
+* Click "Accept this assignment"
 * Open terminal on Jupyterhub, cd to `~/labs` subdirectory
-* git clone 
+* `git clone [assignment_url]`
+* From file browser, open the relevant notebook(s)
 * Work through interactive examples
-* Clean up and commit the notebook
-* Push to preserve 
+* Optional: preserve interactive demo
+    * Clean up and `git commit` the notebooks
+    * `git push` to preserve in the starter code repo
 
 # Grading
-* Open Canvas SpeedGrader, click on url pointing to student's Github repo (opens new browser tab)
-* Optional: quickly view rendered notebook to make sure figures are properly included (`%matplotlib inline` before submission)
+### Canvas
+* Open Canvas SpeedGrader
+* Sort by time of submission
+* Click on url pointing to student's Github repo (opens new browser tab)
+* Optional: quickly view rendered notebook in Github to make sure figures are properly included (`%matplotlib inline` before submission)
+    * If not, send message on Slack
+
+### Github
 * Github Pull Request workflow:
-In student repo, create a new “feedback” branch (if it doesn’t already exist)
-Click on a file that the student modified
-Add a space or modify code for all relevant locations
-Commit with message “feedback”
-Repeat for additional files
-Open Pull Request with message “Feedback”
-Click on the “Files changed” tab
-Create comments by clicking + for highlighted lines
-Add any final comments
+    * If feedback branch does not exist:
+        * Click on "commits" header
+        * Find the last instructor commit (before students modified), click on the `<>` icon next to the github hash (e.g., "f2aca22") to browse files at that commit
+        * Create a new "feedback" branch
+            * Click on button that says "Tree: f2aca22c94"
+            * In dropdown, type "feedback" and hit enter
+    * Create a new Pull Request:
+        * Click "New pull request" button
+        * Under "base:" select the new "feedback" branch
+        * Under "compare:" select master branch
+        * Should create new dialog
+        * Enter "Feedback" in the title (may need to replace existing commit message)
+        * Click green "Create pull request" button
+* Once the Pull Request has been created
+    * Wait a few seconds, and the review-notebook-app bot should add a new cell in the Conversation with a purple button for ReviewNB
+        * Click that to open in ReviewNB, see instructions below
+    * Can add general comments in the PR discussion
 
-## ReviewNB
-In student repo, review the commit history, click on the last commit that instructor made before distributing assignment (the commit that the student accepted through Github Classroom)
-Check out the code (“Browse Files”) at that commit
-Create a new branch called “feedback”
-Compare master with feedback branch, Open a new PR
-Open ReviewNB and comment
+### ReviewNB (https://www.reviewnb.com/)
+* With the Pull Request open in ReviewNB, click the Changes tab
+* This will render the original notebook on the left, and the student's updated notebook on the right, with new code or output highlighted in green
+* To comment on a particular cell/output, hover the mouse, then click the `+` icon to the left of the cell
+    * Can enter text as you would on Github, with markdown and other formatting
+    * Click the green button to save the comment
+* When review is finished, click to 
 
-Add final grade on canvas Speed Grader
+### Canvas
+* Add final grade in SpeedGrader
+* Respond to any Canvas comments
 
-Students review comments
-Create an account on https://www.reviewnb.com/
-From comments on the notebook in the Github pull request, click on the “Reply via ReviewNB” link (or find the repo through RiviewNB interface)
-Click on the “Pull requests” tab under the repo (may need to switch to feedback branch?)
-Review the “Discussion” tab, and if desired, respond to specific comments
-Review (and if desired, respond) to general comments on Github pull request
-Close the pull request (no reason to merge, as I didn’t change any code)
+## Post solutions notebook to Github solutions repo
+* Push the completed notebook with instructor solutions
 
-## Post solutions notebook to Github
-
-### Send Slack message
-
-Hi @channel,
-I finished reviewing your Lab02 notebooks. FantasticPlease review the Pull Request in your repo with ReviewNB app:
-* Open the repo on github
-* Click the Pull Request tab near the top of the page
-* Click the Pull Request named Feedback
-* Click the purple ReviewNB button
-* See discussion
-
-If you attempted the extra credit with standalone Python script, see inline comments on the script file in the pull request directly on Github.
-
-Let me know if anything is unclear, and feel free to respond directly to my comments if you’d like.
-
-Please merge the pull request after you have reviewed - this will let me know that you can see my feedback on ReviewNB/Github.
-
+## Send Slack message
+* Let student's know grading is done, and provide link to solutions notebook
+* Remind students about weekly procedures and ask them to merge the feedback PR when finished
