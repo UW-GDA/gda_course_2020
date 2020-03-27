@@ -49,4 +49,8 @@
 
 ## General
 * Students benefited from ~15-30 minutes at the beginning of lab to discuss code, answers, issues and questions. Useful before diving into new material. Lots of discussion when I wasn't present, often hard to get them to stop when the time came :). It was critical that they had already attempted to work through the exercises independently (or with recent Slack discussions).
-* Throughout the quarter emphasize
+* Throughout the quarter revisit imposter syndrome, emphasize we are all coming in with different backgrounds/experience, learning together
+* The grading workflow worked with 15 students, but won't necessarily scale. Can use `nbgrader` or similar for automated grading support
+* The transition to remote/online instruction in weeks 8-10 was relatively smooth
+   * The students had already established relationships, and the general informal atmosphere of the class was already established. Breakout rooms encouraged discussion.
+
