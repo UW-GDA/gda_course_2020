@@ -3,7 +3,6 @@
 UW Geospatial Data Analysis  
 CEE498/CEWA599  
 David Shean  
-March 13, 2020
 
 We made it to Week 10! No formal assignment this week, so please use the time to work on your final projects. During class, we will discuss conda and the simple steps needed to migrate from the course Jupyterhub to your local computer.  We will also explore some of the fantastic Pangeo tutorials, discuss Dask for distributed computing, and how you can scale processing for larger datasets and more complex workflows.
 
