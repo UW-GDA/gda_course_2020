@@ -14,14 +14,16 @@ Learn how to answer questions using latest tools, but also how to ask the right 
 Limited emphasis machine learning, but scattered throughout labs (e.g., K-means clustering in 03)
 
 ## Syllabus
+https://docs.google.com/document/d/17HRRH7rgbAR3-BnJP9qKdAheam8_qngzyuNO45FWjxQ/edit?usp=sharing
 
 ## Structure
 Mixed graduate and upper-level undergraduate course:
-* One 3-hour lab session per week for 10-week quarter
-* Students complete online reading assignments prior to lab
-* Each lab begins with 0.5-1.0 hour interactive discussion/demo
-* Students then continue independently attempt exercises in a Jupyter notebook in small groups, and finish for homework (due the following week)
-* Students report ~6-12 hours outside of lab required to complete reading and homework
+* One 3-hour lab session per week
+    * Students complete online reading assignments prior to lab
+    * Each lab begins with 0.5-1.0 hour interactive discussion/demo
+    * Students then continue independently attempt exercises in a Jupyter notebook in small groups, and finish for homework (due the following week)
+    * Students report ~6-12 hours outside of lab required to complete reading and homework
+* [Final Project](project/README.md)
 
 ## Reproducing the GDA Course environment
 [![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/gda_w2020/master?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_w2020%26amp%3Bbranch=master%26amp%3Burlpath=lab)  
@@ -34,8 +36,16 @@ Conda environment files:
 * [uwgda2020_latest](https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment_latest.yml) (includes latest features/bugfixes, untested with course material)
 
 ## Modules
-1.
-1.
+1. Shell and git/Github
+1. Python, iPython, Jupyter notebooks
+1. Numpy, Pandas, Matplotlib
+1. Vector 1: Geopandas, CRS, Projections
+1. Raster 1: GDAL, rasterio, Landsat-8 satellite imagery
+1. Vector 2: Geometries, Spatial Operations, Visualization
+1. Raster 2: Warping, Clipping, Sampling, DEM Analysis
+1. Vector time series, SNOTEL data
+1. nD Array, xarray, ERA5 Climate reanalysis
+1. Pangeo, Dask, conda
 
 ## Note for instructors
 I've attempted to compile resources for others who are or will be teaching similar material (or using similar resources).

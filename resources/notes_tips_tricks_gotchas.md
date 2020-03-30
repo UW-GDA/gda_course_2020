@@ -10,6 +10,10 @@ David Shean
 `git config --global user.name "Matt Damon"`  
 `git config --global user.email "email@example.com"`
 
+## Improved git log formatting
+`git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit`  
+*Note: Can add as alias to ~/.gitconfig*
+
 ## Authentication
 #### Two-factor authentication
 * Disabled by default (for new account)
@@ -68,7 +72,7 @@ If things are not working, first try reloading the tab/window in your browser
 ### Common Errors
 * `Dask Server Error`
     * If you see this, it is likely that your server was shut down due to inactivity.  Reload the page in your browser, and restart server if necessary.
-* `Failed to write *.ipynb
+* `Failed to write *.ipynb`
     * Temporary network interruption, try again
     * Check to make sure you haven't filled the disk (available storage in your home directory)
         * `cd ~ ; df .` (should be less than 100%)
