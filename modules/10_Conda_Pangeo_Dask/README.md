@@ -13,8 +13,8 @@ We made it to Week 10! No formal assignment this week, so please use the time to
 * conda vs. pip
 * Python site-packages
 
-### Migrating from Course Jupyterhub
-* Reproducing course environment 
+### Migrating from course Jupyterhub
+* [Notes and instructions](./jupyterhub_migration.md)
 
 ### Pangeo (http://pangeo.io/)
 > "A community platform for Big Data geoscience"
