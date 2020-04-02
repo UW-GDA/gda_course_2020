@@ -7,7 +7,7 @@ University of Washington
 https://dshean.github.io
 
 ## Overview
-This course explores advanced geospatial data processing, analysis/interpretation, and visualization techniques using Python, shell scripting, and open-source tools/libraries (GDAL, NumPy, Pandas and derivatives like geopandas and xarray). We will explore fundamental concepts and real-world data science applications involving large geospatial datasets.
+This course explores advanced geospatial data processing, analysis/interpretation, and visualization techniques using Python, shell scripting, and open-source tools/libraries (GDAL, NumPy, Pandas and related tools like GeoPandas and xarray). We will explore fundamental concepts and real-world data science applications involving large geospatial datasets.
 
 Data Engineering and Data Science  
 Learn how to answer real-world GIS questions programatically using latest tools, but also how to ask the right questions  
