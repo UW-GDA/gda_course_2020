@@ -14,7 +14,7 @@ Please take 5-10 minutes to review the syllabus before our first lab on Friday. 
 
 Bring a laptop to class on Friday. If this is an issue, please email me (dshean@uw.edu), and we can figure out a solution.
 
-Please complete all of the items outlined in the [Student Initial Setup](../../resources/students/students_initial_setup.md) document.
+Please complete all of the items outlined in the [Student Initial Setup](../../resources/students/student_initial_setup.md) document.
 
 ## Reading and Tutorials
 I recommend that you break these lessons up into a few sessions, so you have some time to digest what you’re learning (don’t attempt to get through everything an hour before class on Friday). Even if you are already an expert on these topics, please take some time to work through the lessons. I guarantee that you will learn something new or will gain a better understanding of something that you’ve seen before (I certainly did). 
