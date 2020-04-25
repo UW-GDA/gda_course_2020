@@ -58,12 +58,19 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
 
 ### Weeks 7-10: Do the project!
 * Start early!
-* Create subdirectories in your repo to store notebooks, data (if applicable), doc (for any additional documentation), etc.
-* Add notebooks, code, markdown files, etc. in your new repo.
+* Start with limited test case(s) for initial development and exploration:
+   * Extract a small region of a large raster
+   * If you need the entire raster, start with a downsampled version, then when you're happy with methods, run for native resolution
+   * Start with a subset of timesteps for time series analysis
+* Create subdirectories in your repo to store:
+   * notebooks
+   * data (if applicable) - make sure filesize and total number of files is limitied
+   * doc (if applicable) for any additional documentation, static images you want to include in notebooks or markdown files, etc.
+* Start adding and developing notebooks, code, markdown files, etc.
     * Don’t add huge files (files >20 MB usually don't belong in a Github repo)
     * You can store large files on the Jupyterhub, or even better, host externally and fetch dynamically for analysis
     * We'll discuss some options during labs later in the quarter
-* commit early, commit often
+* Commit early, commit often
 
 ### Final Exam Week: Presentations
 * Each individual/group will prepare and deliver a ~5-10 minute presentation/demo during a group session at the eScience Institute
