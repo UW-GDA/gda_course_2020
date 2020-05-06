@@ -10,11 +10,11 @@ https://dshean.github.io
 This course explores advanced geospatial data processing, analysis/interpretation, and visualization techniques using Python, shell scripting, and open-source tools/libraries (GDAL, NumPy, Pandas and related tools like GeoPandas and xarray). We will explore fundamental concepts and real-world data science applications involving a variety of large geospatial datasets.
 
 #### Highlights:  
-- Learn aspects of both data engineering and data science  
+- Aspects of both data engineering and data science  
 - Learn how to answer real-world GIS questions programatically using latest tools, and how to ask the right questions  
-- Learn how to query and process geospatial data on-the-fly, without manual downloads  
+- Query and process geospatial data on-the-fly, without manual downloads  
 - Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering in week 03 lab)  
-- Examples for Washington state and Western U.S. are relevant for multiple applications including cryospheric, hydrology, geotechnical engineering, transportation
+- Examples focus on Washington state and Western U.S.
 
 ## Samples
 #### ICESat satellite laser altimetry point data near Western U.S. glaciers
@@ -33,7 +33,7 @@ This course explores advanced geospatial data processing, analysis/interpretatio
 ## Modules
 1. [Shell and git/Github](modules/01_Shell_Github)
 1. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter)
-1. Numpy, Pandas, Matplotlib
+1. [Numpy, Pandas, Matplotlib](modules/03_NumPy_Pandas_Matplotlib)
 1. Vector 1: Geopandas, CRS, Projections
 1. Raster 1: GDAL, rasterio, Landsat-8 satellite imagery
 1. Vector 2: Geometries, Spatial Operations, Visualization
@@ -73,10 +73,14 @@ Mixed graduate and upper-level undergraduate course:
 
 ## Reproducing the GDA Course environment
 [![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/gda_2020/master?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_2020%26amp%3Bbranch=master%26amp%3Burlpath=lab)  
-Clicking this badge will launch the GDA image on [mybinder.org](https://mybinder.org). This will provide the same environment that was available on the course Jupyterhub during winter 2020. However, the session is ephemeral and your home directory will not persist, so use this only for running tutorials and other short-lived demos!
+Clicking this badge will launch the GDA image and Jupyterlab environment on [mybinder.org](https://mybinder.org). This will provide the same environment that was available on the course Jupyterhub during winter 2020. 
+
+You can use the file browser on the left side to navigate and launch interactive notebooks in the `gda_2020/modules` directory.  Try it!
+
+*Note: the hardware resources are limited (only 2 GB of RAM) and the session is ephemeral. Your home directory will not persist, so use this only for exploration and demos. You can always right-click on a file and download locally if you want to preserve your changes, or use git/github!*
 
 ### Reproducing locally
-See the [Week 10 materials](./modules/10_Conda_Pangeo_Dask).
+See the [Week 10 materials](./modules/10_Conda_Pangeo_Dask) for instructions.
 Conda environment files:
 * [uwgda2020](https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment.yml) (pinned version numbers)
 * [uwgda2020_latest](https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment_latest.yml) (includes latest features/bugfixes, untested with course material)
