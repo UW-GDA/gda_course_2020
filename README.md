@@ -7,15 +7,32 @@ University of Washington
 https://dshean.github.io
 
 ## Overview
-This course explores advanced geospatial data processing, analysis/interpretation, and visualization techniques using Python, shell scripting, and open-source tools/libraries (GDAL, NumPy, Pandas and related tools like GeoPandas and xarray). We will explore fundamental concepts and real-world data science applications involving large geospatial datasets.
+This course explores advanced geospatial data processing, analysis/interpretation, and visualization techniques using Python, shell scripting, and open-source tools/libraries (GDAL, NumPy, Pandas and related tools like GeoPandas and xarray). We will explore fundamental concepts and real-world data science applications involving a variety of large geospatial datasets.
 
-Data Engineering and Data Science  
-Learn how to answer real-world GIS questions programatically using latest tools, but also how to ask the right questions  
-Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering in 03)
+#### Highlights:  
+- Learn aspects of both data engineering and data science  
+- Learn how to answer real-world GIS questions programatically using latest tools, and how to ask the right questions  
+- Learn how to query and process geospatial data on-the-fly, without manual downloads  
+- Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering in week 03 lab)  
+- Examples for Washington state and Western U.S. are relevant for multiple applications including cryospheric, hydrology, geotechnical engineering, transportation
+
+## Samples
+#### ICESat satellite laser altimetry point data near Western U.S. glaciers
+![ICESat points](./resources/sample_img/glas_points_ctx.png)
+![ICESat filtering](./resources/sample_img/glas_srtmdiff_outliers.png)
+#### Raster DEM analysis near Washington state highways
+![WA highways](./resources/sample_img/wa_highways.png)
+#### Landsat-8 multi-spectral satellite imagery for Mt. Rainier to determine snow-covered area
+![Rainer LS8 Snowcover](./resources/sample_img/rainier_LS8_snowcover.png)
+#### Western U.S. SNOTEL network vector time series
+![Rainier SNOTEL](./resources/sample_img/rainier_snotel_corr.png)
+![Paradise SNOTEL](./resources/sample_img/snotel_paradise_wy.png)
+![SNOTEL perc normal](./resources/sample_img/snotel_perc_normal_westernUS.png)
+#### Raster time series analysis using global and regional climate reanalysis data
 
 ## Modules
 1. [Shell and git/Github](modules/01_Shell_Github)
-1. Python, iPython, Jupyter notebooks
+1. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter)
 1. Numpy, Pandas, Matplotlib
 1. Vector 1: Geopandas, CRS, Projections
 1. Raster 1: GDAL, rasterio, Landsat-8 satellite imagery
