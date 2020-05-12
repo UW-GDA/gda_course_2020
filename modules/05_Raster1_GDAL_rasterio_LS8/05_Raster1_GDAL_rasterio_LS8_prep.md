@@ -17,8 +17,8 @@ Please take some time (~1 hour) before lab on Friday to review the following mat
 * https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/fundamentals-raster-data/intro-raster-data/
 
 ### Landsat background
-* https://www.earthdatascience.org/courses/earth-analytics-python/multispectral-remote-sensing-in-python/landsat-bands-geotif-in-Python/
-* You can skim this, but feel free to do the interactive exercises if desired
+* https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/landsat-in-Python/  
+You can skim this, but feel free to do the interactive exercises if desired
 
 ### Rasterio and GDAL overview
 * https://rasterio.readthedocs.io/en/latest/quickstart.html
