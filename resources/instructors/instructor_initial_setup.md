@@ -6,8 +6,8 @@ We use multiple platforms during this course, which required some prep before th
 #### Create a new Slack workspace
 1. Go to https://slack.com/create
 1. Recommend naming with course name and year:
-  * Geospatial Data Analysis: W2020
-  * uwgda2020.slack.com
+    * Geospatial Data Analysis: W2020
+    * uwgda2020.slack.com
 1. Optional: add a unique icon (useful if you are logged into many workspaces on Desktop app)
 1. For a 10-week course with ~15 students, the free plan was sufficient. For larger classes, you might hit the 10K message limit during the quarter, in which case, some early messages will not longer be visible.
 
