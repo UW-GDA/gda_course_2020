@@ -7,16 +7,16 @@ University of Washington
 https://dshean.github.io
 
 ## Overview
-This course explores advanced geospatial data processing, analysis/interpretation, and visualization techniques using Python, shell scripting, and open-source tools/libraries (GDAL, NumPy, Pandas and related tools like GeoPandas and xarray). We will explore fundamental concepts and real-world data science applications involving a variety of large geospatial datasets.
+This course explores geospatial data processing, analysis, interpretation, and visualization techniques using Python and open-source tools/libraries (GDAL, NumPy, Pandas foundation and geospatial options like rasterio, GeoPandas and xarray). We will explore fundamental concepts and real-world data science applications involving a variety of large geospatial datasets.
 
 #### Highlights:  
-- Aspects of both data engineering and data science  
-- Learn how to answer real-world GIS questions programatically using latest tools, and how to ask the right questions  
-- Query and process geospatial data on-the-fly, without manual downloads  
-- Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering in week 03 lab)  
+- Aspects of both data engineering and data science, with exploratory data analysis approach
+- Learn how to programatically answer real-world remote sensing and GIS questions (and how to ask the right questions)
+- Query and process geospatial data on-the-fly, without manual downloads
+- Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering in week 03 lab)
 - Examples focus on Washington state and Western U.S.
 
-## Samples
+## Sample visualizations
 #### ICESat satellite laser altimetry point data near Western U.S. glaciers
 ![ICESat points](./resources/sample_img/glas_points_ctx.png)
 ![ICESat filtering](./resources/sample_img/glas_srtmdiff_outliers.png)
@@ -35,7 +35,7 @@ This course explores advanced geospatial data processing, analysis/interpretatio
 1. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter)
 1. [Numpy, Pandas, Matplotlib](modules/03_NumPy_Pandas_Matplotlib)
 1. Vector 1: Geopandas, CRS, Projections
-1. Raster 1: GDAL, rasterio, Landsat-8 satellite imagery
+1. [Raster 1: GDAL, rasterio, Landsat-8 satellite imagery](modules/05_Raster1_GDAL_rasterio_LS8)
 1. Vector 2: Geometries, Spatial Operations, Visualization
 1. Raster 2: Warping, Clipping, Sampling, DEM Analysis
 1. Vector time series, SNOTEL data
@@ -68,8 +68,8 @@ Mixed graduate and upper-level undergraduate course:
 * If you find this content useful, please consider contributing corrections, modifications or suggestions. Or, at the very least, "star" the repository by clicking the button in upper right corner of the repo landing page.
 
 ### Solutions
-* The module notebooks in this public repo are the "student" versions, with empty cells and instructions for lab exercises to be attempted by the students. The completed notebooks with my solutions are archived in another private [repo](https://github.com/UW-GDA/gda_w2020_solutions). Enrolled students receive access to these solutions after submitting their own solutions to the lab exercises. I have not released the solutions publicly, as I expect future students enrolled in the course to learn "the hard way" as they work through the problems on their own. If you have independently tried to work through these notebooks and would like read access to my solutions, I can potentially add you as a collaborator.
-* I wish that I had a better approach for distribution, as I know that these solutions to be a useful resource for others. My priority right now is to preserve the learning experience for enrolled students, and to be able to reuse similar material in the coming years (developing these notebooks requires a considerable amount of time). I am open to suggestions on strategies that will enable students to "unlock" the solutions as they incrementally make progress.
+* The notebooks in this public repo are the "student" versions, with many empty cells and instructions for lab exercises. The completed notebooks with my solutions are archived in a private [solutions repo](https://github.com/UW-GDA/gda_w2020_solutions). Enrolled students receive access to this repo after submitting their own solutions to the lab exercises each week. I have not released the solutions publicly, as I expect future students enrolled in the course to learn "the hard way" as they work through the problems on their own. If you have independently tried to work through these notebooks and would like to compare your answers, I can potentially add you as a collaborator.
+* I wish that I had a better approach for distribution, as I know that these solutions to be a useful resource for those who can't dedicate weeks to learn the material. My priority right now is to preserve the learning experience for enrolled students, and to be able to reuse similar material in the coming years (developing these notebooks requires a considerable amount of time). I am open to suggestions on strategies that will enable students to "unlock" the solutions as they incrementally make progress.
 
 ## Reproducing the GDA Course environment
 [![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/gda_2020/master?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_2020%26amp%3Bbranch=master%26amp%3Burlpath=lab)  
