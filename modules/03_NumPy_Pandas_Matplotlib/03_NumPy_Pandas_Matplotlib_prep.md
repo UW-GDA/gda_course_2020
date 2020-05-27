@@ -16,12 +16,12 @@ Again, this is intended to be an individual review. Tailor to your needs, and ad
 
 As with the previous homework assignments, don’t wait until Friday morning to start.  This material will be much more useful if broken up over several sessions throughout the week - try an hour or two a day. Again, if this is new, please dedicate the time to explore interactively.
 
-### 1. NumPy, Pandas and Matplotlib (~2-6 hours)
+### NumPy, Pandas and Matplotlib (~2-6 hours)
 * Review the following sections of Jake Vanderplas’ “Python Data Science Handbook”
-https://jakevdp.github.io/PythonDataScienceHandbook/
-    2. NumPy
-    3. Pandas
-    4. Matplotlib
+https://jakevdp.github.io/PythonDataScienceHandbook/:
+2. NumPy
+3. Pandas
+4. Matplotlib
 * You should have cloned into your Week 02 directory
     * If not, see the Week 2 instructions
 * Work through some of the interactive examples, and explore new concepts (don't just shift-Enter as quickly as possible)
