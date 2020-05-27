@@ -27,8 +27,8 @@ If something is not working or the text in notebook cells looks strange or "cut 
 ### Common Errors
 * `Dask Server Error`
     * If you see this, it is likely that your server was shut down due to inactivity.  Reload the page in your browser, and restart server if necessary.
-* `Failed to write *.ipynb`
-    * Temporary network interruption, try again
+* `File Save Error for *.ipynb` or `Failed to write *.ipynb`
+    * Temporary network interruption, dismiss and try manually saving
     * Check to make sure you haven't filled the disk (available storage in your home directory)
         * `cd ~ ; df .` (should be less than 100%)
 * `Kernel died`
