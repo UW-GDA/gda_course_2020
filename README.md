@@ -34,7 +34,7 @@ This course explores geospatial data processing, analysis, interpretation, and v
 1. [Shell and git/Github](modules/01_Shell_Github)
 1. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter)
 1. [Numpy, Pandas, Matplotlib](modules/03_NumPy_Pandas_Matplotlib)
-1. Vector 1: Geopandas, CRS, Projections
+1. [Vector 1: Geopandas, CRS, Projections](modules/04_Vector1_Geopandas_CRS_Proj)
 1. [Raster 1: GDAL, rasterio, Landsat-8 satellite imagery](modules/05_Raster1_GDAL_rasterio_LS8)
 1. Vector 2: Geometries, Spatial Operations, Visualization
 1. Raster 2: Warping, Clipping, Sampling, DEM Analysis
