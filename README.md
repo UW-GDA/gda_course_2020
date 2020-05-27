@@ -31,12 +31,13 @@ This course explores geospatial data processing, analysis, interpretation, and v
 #### Raster time series analysis using global and regional climate reanalysis data
 
 ## Modules
+*Will be linked here after review and cleanup*
 1. [Shell and git/Github](modules/01_Shell_Github)
 1. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter)
 1. [Numpy, Pandas, Matplotlib](modules/03_NumPy_Pandas_Matplotlib)
 1. [Vector 1: Geopandas, CRS, Projections](modules/04_Vector1_Geopandas_CRS_Proj)
 1. [Raster 1: GDAL, rasterio, Landsat-8 satellite imagery](modules/05_Raster1_GDAL_rasterio_LS8)
-1. Vector 2: Geometries, Spatial Operations, Visualization
+1. [Vector 2: Geometries, Spatial Operations, Visualization](modules/06_Vector2_Geometries_SpatialOps_Viz)
 1. Raster 2: Warping, Clipping, Sampling, DEM Analysis
 1. Vector time series, SNOTEL data
 1. nD Array, xarray, ERA5 Climate reanalysis
