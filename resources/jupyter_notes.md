@@ -15,8 +15,10 @@ https://icesat-2hackweek.github.io/learning-resources/preliminary/jupyterhub/
 * 8 GB RAM (increased mid-quarter)
 * 40 GB storage
 
-### Troubleshooting 
+### Logging out
+Please remember to log out of the Jupyterhub when you are done for the day. It shuts down all your resources, saves money, and provides a clean slate the next time you log in, which can help avoid various issues listed below.
 
+### Troubleshooting 
 If something is not working or the text in notebook cells looks strange or "cut off", first try reloading the tab/window in your browser.
 
 ### Restarting Jupyterhub Server
@@ -25,15 +27,19 @@ If something is not working or the text in notebook cells looks strange or "cut 
 * May need to restart server to fetch the latest environment (i.e., new packages added to default conda environment), or as a first troubleshooting step if you are encountering unexplained issues.
 
 ### Common Errors
-* `Dask Server Error`
-    * If you see this, it is likely that your server was shut down due to inactivity.  Reload the page in your browser, and restart server if necessary.
-* `File Save Error for *.ipynb` or `Failed to write *.ipynb`
+#### `Kernel Restarting`
+    * Likely ran out of memory. 
+    * Can "Restart Kernel and Run up to selected cell" to restore state
+    * Remember, closing a notebook tab in JupyterLab interface doesn't actually shut down the kernel! If you have opened/run many notebooks during a session, you may start to experience performance issues. 
+    * To remedy, click the "Running Terminals and Kernels" button (square inside a circle) on the left panel. It will show you all of the kernels  that are running. Shut down any that you no longer need.
+#### `Dask Server Error`
+    * If you see this, it is likely that your server was shut down due to inactivity.  Reload the page in your browser, and log back onto the Hub.
+#### `File Save Error for *.ipynb` or `Failed to write *.ipynb`
     * Temporary network interruption, dismiss and try manually saving
     * Check to make sure you haven't filled the disk (available storage in your home directory)
         * `cd ~ ; df .` (should be less than 100%)
-* `Kernel died`
-    * Likely ran out of memory, restart kernel
-
+        * If disk is full, delete some files from `/home/jovyan`
+      
 ## Jupyter notebooks
 
 ### Disable Jupyter Notebook Warnings
