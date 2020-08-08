@@ -26,8 +26,7 @@ This course explores geospatial data processing, analysis, interpretation, and v
 ![Rainer LS8 Snowcover](./resources/sample_img/rainier_LS8_snowcover.png)
 #### Western U.S. SNOTEL network vector time series
 ![Rainier SNOTEL](./resources/sample_img/rainier_snotel_corr.png)
-![Paradise SNOTEL](./resources/sample_img/snotel_paradise_wy.png)
-![SNOTEL perc normal](./resources/sample_img/snotel_perc_normal_westernUS.png)
+![SNOTEL perc normal](./resources/sample_img/snotel_paradise_perc_normal_westernUS.png)
 #### Raster DEM analysis to estimate sea level rise
 ![whidbey_slr](./resources/sample_img/whidbey_slr.png)
 #### Raster time series analysis using global and regional climate reanalysis data
