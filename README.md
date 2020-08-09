@@ -16,20 +16,21 @@ This course explores geospatial data processing, analysis, interpretation, and v
 - Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering in week 03 lab)
 - Examples focus on Washington state and Western U.S.
 
-## Sample visualizations
-#### ICESat satellite laser altimetry point data near Western U.S. glaciers
+## Samples 
+#### ICESat satellite laser altimetry data over Western U.S. (modules 3-5)
 ![ICESat points](./resources/sample_img/glas_points_ctx.png)
 ![ICESat filtering](./resources/sample_img/glas_srtmdiff_outliers.png)
-#### Raster DEM analysis near Washington state highways
-![WA highways](./resources/sample_img/wa_highways.png)
-#### Landsat-8 multi-spectral satellite imagery for Mt. Rainier to determine snow-covered area
+#### Snow-covered area for Mt. Rainier computed from Landsat-8 multi-spectral satellite imagery (module 6)
 ![Rainer LS8 Snowcover](./resources/sample_img/rainier_LS8_snowcover.png)
-#### Western U.S. SNOTEL network vector time series
+#### Raster DEM analysis to estimate impacts of sea level rise and hazards near WA highways (module 7)
+![whidbey_slr](./resources/sample_img/whidbey_slr.png)
+![WA highways](./resources/sample_img/wa_highways.png)
+#### Western U.S. SNOTEL station analysis (module 8)
 ![Rainier SNOTEL](./resources/sample_img/rainier_snotel_corr.png)
 ![SNOTEL perc normal](./resources/sample_img/snotel_paradise_perc_normal_westernUS.png)
-#### Raster DEM analysis to estimate sea level rise
-![whidbey_slr](./resources/sample_img/whidbey_slr.png)
-#### Raster time series analysis using global and regional climate reanalysis data
+#### Global and regional climate reanalysis data (module 9)
+![ERA5 Climatology](./resources/sample_img/era5_climatology.png)
+![ERA5 WA](./resources/sample_img/era5_wa.png)
 
 ## Modules
 1. [Shell and git/Github](modules/01_Shell_Github)
