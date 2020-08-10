@@ -30,7 +30,7 @@ This course explores geospatial data processing, analysis, interpretation, and v
 ![SNOTEL perc normal](./resources/sample_img/snotel_paradise_perc_normal_westernUS.png)
 #### Global and regional climate reanalysis data (module 9)
 ![ERA5 Climatology](./resources/sample_img/era5_climatology.png)
-![ERA5 WA](./resources/sample_img/era5_wa.png)
+![ERA5 WA](./resources/sample_img/era5_wa_2panel.png)
 
 ## Modules
 1. [Shell and git/Github](modules/01_Shell_Github)
