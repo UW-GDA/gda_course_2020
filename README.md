@@ -73,7 +73,7 @@ https://docs.google.com/document/d/17HRRH7rgbAR3-BnJP9qKdAheam8_qngzyuNO45FWjxQ/
    * Students finish exercises (and "extra credit" challenge problems) for homework (due the following week)
 * Students report ~6-12 hours outside of the 3-hour lab required to complete reading and homework
 * See weekly workflow document in instructor and student [resources](resources) for technical details
-#### [Final Project](project/README.md)
+#### [Final Project](resources/project/README.md)
 * Students propose, refine, perform and present independent or group projects
 * Final deliverables: Github repository and ~10 minute presentation
 
