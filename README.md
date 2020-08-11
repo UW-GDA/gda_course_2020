@@ -9,17 +9,17 @@ https://dshean.github.io
 [![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/gda_2020/master?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_2020%26amp%3Bbranch=master%26amp%3Burlpath=lab)  
 
 ## Overview
-This course explores geospatial data processing, analysis, interpretation, and visualization techniques using Python and open-source tools/libraries. We will explore fundamental concepts and real-world data science applications involving a variety of large geospatial datasets.
+This course explores geospatial data processing, analysis, interpretation, and visualization techniques using Python and open-source tools/libraries. We will explore fundamental concepts and real-world data science applications involving a variety of geospatial datasets.
 
 #### Highlights:  
 - Aspects of both data engineering and data science, with exploratory data analysis approach
-- Learn how to programatically answer real-world remote sensing and GIS questions (and how to ask the right questions)
+- Learn how to programatically answer real-world remote sensing and GIS questions (and how to ask new questions)
 - Query and process geospatial data on-the-fly, without manual downloads
-- Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering in week 03 lab)
+- Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering)
 - Examples focus on Washington state and Western U.S.
 
 ## Samples 
-#### ICESat satellite laser altimetry data over Western U.S. (modules 3-4)
+#### ICESat satellite laser altimetry data over Western U.S. (modules 3-4, 6)
 ![ICESat points](./resources/sample_img/glas_combined.png)
 #### Estimating snow-covered area for Mt. Rainier from Landsat-8 multi-spectral satellite imagery (module 5)
 ![Rainer LS8 Snowcover](./resources/sample_img/rainier_LS8_snowcover.png)
@@ -83,7 +83,7 @@ https://docs.google.com/document/d/17HRRH7rgbAR3-BnJP9qKdAheam8_qngzyuNO45FWjxQ/
 
 ### [Resources for instructors](resources/instructors)
 * I've started compiling resources, notes and recommendations for others who are or will be teaching similar material (or using similar approaches).
-* If you find this content useful, please consider contributing corrections, modifications or suggestions. Or, at the very least, "star" the repository by clicking the button in upper right corner of the repo landing page.
+* If you find this content useful, please consider contributing upstream corrections, modifications or suggestions.
 
 ### Solutions
 * The notebooks in this public repo are the "student" versions, with many empty cells and instructions for lab exercises. The completed notebooks with my solutions are archived in a private [solutions repo](https://github.com/UW-GDA/gda_w2020_solutions). Enrolled students receive access to this repo after submitting their own solutions to the lab exercises each week. I have not released the solutions publicly, as I expect future students enrolled in the course to learn "the hard way" as they work through the problems on their own. If you have independently tried to work through these notebooks and would like to compare your answers, I can potentially add you as a collaborator.
@@ -92,8 +92,12 @@ https://docs.google.com/document/d/17HRRH7rgbAR3-BnJP9qKdAheam8_qngzyuNO45FWjxQ/
 ## Contributions
 If you find errors or have suggestions for improvements, please consider creating a Github Issue or submitting a Pull Request. I view the development of this material as an open, collaborative effort. I expect to teach this course in the coming years, and will continue refining/updating. I sincerely appreciate any help that I can get on this and I will acknowledge your contributions (see below)!
 
+## Disclaimer
+The primary objective of this course is to teach geospatial analysis concepts and to provide interesting problems to engage students as they learn how to use modern, open-source tools. Several examples make simplifying assumptions and/or use older datasets for analysis. There are more rigorous ways to approach all of these problems, and I encourage you to consult the peer-reviewed literature for more information or any official purposes. 
+Also, the tools and methods outlined here will work for many problems, but may not always be suitable for very large datasets that require more efficient, distributed computing. I hope to integrate more of this in the future, but for now the focus remains on relatively small problems, as it's easy to get lost in the details of scaling.
+
 ## Acknowledgements
-Many individuals have contributed to the content development and infrastructure required for this course:
+Many individuals have contributed to the content and infrastructure development required for this course:
 * First and foremost, the brave GDA students who enrolled in this course duing winter 2019 and winter 2020 provided critical feedback, suggestions and often elegant solutions to challenging problems
 * Chris Land (UW-IT) and Scott Henderson (UW eScience/ESS) provided Jupyterhub configuration and support during 2020
 * Amanda Tan (UW eScience) provided Jupyterhub configuration and support during 2019
@@ -110,4 +114,4 @@ The content of this repository is licensed under a <a rel="license" href="http:/
 If you use content or code in a publication, please cite as:  
 > Shean, D. (2020), Geospatial Data Analysis with Python: Course material from the Winter 2020 offering at the University of Washington (CEE498/CEWA599), Zenodo, http://doi.org/10.5281/zenodo.3978778  
 
-If you enjoy this material, or you use some of this material in your course, please show your support by clicking the "Star" button in upper right corner of the repo page.  Thanks!
+If you learn from this material, or you use some of this material in a different course, please show your support by clicking the "Star" button in upper right corner of the repo page. Thanks!
