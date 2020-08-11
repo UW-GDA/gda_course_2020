@@ -10,7 +10,7 @@ https://icesat-2hackweek.github.io/learning-resources/preliminary/jupyterhub/
 
 # Jupyterhub
 
-## Initial Setup
+## Initial Instructor Setup
 
 #### Work with UW-IT template 
 See sample for 2020 here: https://github.com/UW-GDA/uwgda-image
@@ -37,8 +37,7 @@ See available extensions: https://github.com/topics/jupyterlab-extension
 * 40 GB storage
 
 ## Logging out
-Please remember to log out of Jupyterhub when you are done for the day. This will shut down your server (but preserves all files and lab state).  
-Not only will this save money (we'd like to avoid paying for cloud computing resources while you're sleeping), and provides a clean slate the next time you log in, which can help avoid various issues listed below.
+Please try to remember to shut down your server and log out of the Jupyterhub when you're done for the day. This will help save money (we'd like to avoid paying for cloud computing resources while you're sleeping), and provides a clean start the next time you log in, which can help avoid various issues listed below.
 
 ## Troubleshooting
 
@@ -60,20 +59,20 @@ Not only will this save money (we'd like to avoid paying for cloud computing res
 
 ## Common Jupyterhub Errors
 #### `Kernel Restarting`
-    * Likely ran out of memory. 
-    * Can "Restart Kernel and Run up to selected cell" to restore state
-    * Remember, closing a notebook tab in JupyterLab interface doesn't actually shut down the kernel! If you have opened/run many notebooks during a session, you may start to experience performance issues. 
-    * To remedy, click the "Running Terminals and Kernels" button (square inside a circle) on the left panel. It will show you all of the kernels  that are running. Shut down any that you no longer need.
+ * Likely ran out of memory. 
+ * Can "Restart Kernel and Run up to selected cell" to restore state
+ * Remember, closing a notebook tab in JupyterLab interface doesn't actually shut down the kernel! If you have opened/run many notebooks during a session, you may start to experience performance issues. 
+ * To remedy, click the "Running Terminals and Kernels" button (square inside a circle) on the left panel. It will show you all of the kernels  that are running. Shut down any that you no longer need.
 
 #### `Dask Server Error`
-    * If you see this, it is likely that your server was shut down due to inactivity. Reload the page in your browser, and log back onto the Hub.
+ * If you see this, it is likely that your server was shut down due to inactivity. Reload the page in your browser, and log back onto the Hub.
 
 #### `File Save Error for *.ipynb` or `Failed to write *.ipynb`
-    * Temporary network interruption, dismiss and try manually saving
-    * Check to make sure you haven't filled the disk (available storage in your home directory)
-        * `cd ~ ; df .` (should be less than 100%)
-        * If disk is full, delete some files from `/home/jovyan`
-      
+ * Temporary network interruption, dismiss and try manually saving
+ * Check to make sure you haven't filled the disk (available storage in your home directory)
+     * `cd ~ ; df .` (should be less than 100%)
+     * If disk is full, delete some files from `/home/jovyan`
+
 # Jupyter notebooks
 
 ### Disable Jupyter Notebook Warnings
