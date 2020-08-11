@@ -1,5 +1,5 @@
 # Geospatial Data Analysis with Python
-#### Course material from the Winter 2020 offering at the University of Washington  
+#### Course material from the Winter 2020 offering at the University of Washington (CEE498/CEWA599)  
 
 David Shean  
 Civil and Environmental Engineering  
@@ -45,22 +45,35 @@ The course is organized into 10 week-long modules. Each module contains backgrou
 #### 9. [ND arrays, xarray, ERA5 climate reanalysis data](modules/09_NDarrays_xarray_ERA5)
 #### 10. [Pangeo, Dask, conda](modules/10_Conda_Pangeo_Dask)
 
-## Syllabus
+## Try it!
+[![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/gda_2020/master?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_2020%26amp%3Bbranch=master%26amp%3Burlpath=lab)  
+Clicking this badge will launch the GDA image and Jupyterlab environment on [mybinder.org](https://mybinder.org). This will provide the same environment that was available on the course Jupyterhub during winter 2020. You can use the file browser on the left side to navigate and launch interactive notebooks in the `gda_2020/modules` directory.
+
+*Note: this session is ephemeral and the hardware resources are limited (only 2 GB of RAM). Your home directory will not persist, so use this only for exploration and demos. Within the Jupterylab environment, you can always right-click on a file and download locally if you want to preserve your changes, or use git/github!*
+
+### Reproducing locally
+1. Download all course materials: `git clone https://github.com/UW-GDA/gda_course_2020.git`
+2. See the [Week 10 materials](./modules/10_Conda_Pangeo_Dask) for instructions on how to set up your local environment to run the notebooks. Or, if you're already familiar with conda, here are the environment files:
+   * [uwgda2020](https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment.yml) (pinned version numbers)
+   * [uwgda2020_latest](https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment_latest.yml) (includes latest features/bugfixes, untested with course material)
+3. Notebooks should have instructions/code to download all necessary data
+
+## Course details
+### Syllabus (UW netid required)
 https://docs.google.com/document/d/17HRRH7rgbAR3-BnJP9qKdAheam8_qngzyuNO45FWjxQ/edit?usp=sharing
 
-## Structure
-Mixed graduate and upper-level undergraduate course:
-* Weekly workflow
-    * Students independently complete online reading assignments or work through tutorials prior to lab
-    * One in-person (or virtual) 3-hour lab session on Friday afternoon
-      * Lab starts with 0.5-1.5 hour introduction, review, and interactive discussion/demo using Jupyter notebook, terminal, and/or Github
-      * Students work in small groups to attempt exercises in a Jupyter notebook in small groups
-      * Students finish exercises (and "extra credit" challenge problems) for homework (due the following week)
-    * Students report ~6-12 hours outside of the 3-hour lab required to complete reading and homework
-    * See weekly workflow document in instructor and student [resources](resources) for technical details
-* [Final Project](project/README.md)
-   * Students propose, refine, perform and present independent or group projects
-   * Final deliverables: Github repository and ~10 minute presentation
+### Structure
+#### Weekly workflow:
+* Students independently complete online reading assignments or work through tutorials prior to lab
+* One in-person (or virtual) 3-hour lab session on Friday afternoon
+   * Lab starts with 0.5-1.5 hour introduction, review, and interactive discussion/demo using Jupyter notebook, terminal, and/or Github
+   * Students work in small groups to attempt exercises in a Jupyter notebook in small groups
+   * Students finish exercises (and "extra credit" challenge problems) for homework (due the following week)
+* Students report ~6-12 hours outside of the 3-hour lab required to complete reading and homework
+* See weekly workflow document in instructor and student [resources](resources) for technical details
+#### [Final Project](project/README.md)
+* Students propose, refine, perform and present independent or group projects
+* Final deliverables: Github repository and ~10 minute presentation
 
 ### [Resources for students](resources/students)
 * Most current resources are intended for students enrolled in the class at the University of Washington
@@ -74,22 +87,8 @@ Mixed graduate and upper-level undergraduate course:
 * The notebooks in this public repo are the "student" versions, with many empty cells and instructions for lab exercises. The completed notebooks with my solutions are archived in a private [solutions repo](https://github.com/UW-GDA/gda_w2020_solutions). Enrolled students receive access to this repo after submitting their own solutions to the lab exercises each week. I have not released the solutions publicly, as I expect future students enrolled in the course to learn "the hard way" as they work through the problems on their own. If you have independently tried to work through these notebooks and would like to compare your answers, I can potentially add you as a collaborator.
 * I wish that I had a better approach for distribution, as I know that these solutions to be a useful resource for those who can't dedicate weeks to learn the material. My priority right now is to preserve the learning experience for enrolled students, and to be able to reuse similar material in the coming years (developing these notebooks requires a considerable amount of time). I am open to suggestions on strategies that will enable students to "unlock" the solutions as they incrementally make progress.
 
-## Reproducing the GDA Course environment
-[![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/gda_2020/master?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_2020%26amp%3Bbranch=master%26amp%3Burlpath=lab)  
-Clicking this badge will launch the GDA image and Jupyterlab environment on [mybinder.org](https://mybinder.org). This will provide the same environment that was available on the course Jupyterhub during winter 2020. 
-
-You can use the file browser on the left side to navigate and launch interactive notebooks in the `gda_2020/modules` directory.  Try it!
-
-*Note: the hardware resources are limited (only 2 GB of RAM) and the session is ephemeral. Your home directory will not persist, so use this only for exploration and demos. You can always right-click on a file and download locally if you want to preserve your changes, or use git/github!*
-
-### Reproducing locally
-See the [Week 10 materials](./modules/10_Conda_Pangeo_Dask) for instructions.
-Conda environment files:
-* [uwgda2020](https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment.yml) (pinned version numbers)
-* [uwgda2020_latest](https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment_latest.yml) (includes latest features/bugfixes, untested with course material)
-
 ## Contributions
-If you find errors or make some improvements, please consider creating a Github Issue or submitting a Pull Request. I view this as an open, collaborative effort. I expect to teach this course in the coming years, and will continue refining the material, so I appreciate all of the help I can get.
+If you find errors or have suggestions for improvements, please consider creating a Github Issue or submitting a Pull Request. I view the development of this material as an open, collaborative effort. I expect to teach this course in the coming years, and will continue refining/updating. I sincerely appreciate any help that I can get on this and I will acknowledge your contributions (see below)!
 
 ## Acknowledgements
 Many individuals have contributed to the content development and infrastructure required for this course:
