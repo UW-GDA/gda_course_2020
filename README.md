@@ -25,7 +25,7 @@ This course explores geospatial data processing, analysis, interpretation, and v
 ![whidbey_slr](./resources/sample_img/whidbey_slr.png)
 ![WA highways](./resources/sample_img/wa_highways.png)
 #### Western U.S. SNOTEL station analysis (module 8)
-![Rainier SNOTEL](./resources/sample_img/rainier_snotel_corr.png)
+![Rainier SNOTEL](./resources/sample_img/rainier_snotel_corr_ts.png)
 ![SNOTEL perc normal](./resources/sample_img/snotel_paradise_perc_normal_westernUS.png)
 #### Global and regional climate reanalysis data (module 9)
 ![ERA5 Climatology](./resources/sample_img/era5_climatology.png)
