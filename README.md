@@ -1,5 +1,5 @@
 # Geospatial Data Analysis with Python
-Course material from the Winter 2020 offering at the University of Washington  
+#### Course material from the Winter 2020 offering at the University of Washington  
 
 David Shean  
 Civil and Environmental Engineering  
@@ -7,7 +7,7 @@ University of Washington
 https://dshean.github.io
 
 ## Overview
-This course explores geospatial data processing, analysis, interpretation, and visualization techniques using Python and open-source tools/libraries (GDAL, NumPy, Pandas foundation and geospatial options like rasterio, GeoPandas and xarray). We will explore fundamental concepts and real-world data science applications involving a variety of large geospatial datasets.
+This course explores geospatial data processing, analysis, interpretation, and visualization techniques using Python and open-source tools/libraries. We will explore fundamental concepts and real-world data science applications involving a variety of large geospatial datasets.
 
 #### Highlights:  
 - Aspects of both data engineering and data science, with exploratory data analysis approach
@@ -16,10 +16,10 @@ This course explores geospatial data processing, analysis, interpretation, and v
 - Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering in week 03 lab)
 - Examples focus on Washington state and Western U.S.
 
-## Sample plots 
+## Samples 
 #### ICESat satellite laser altimetry data over Western U.S. (modules 3-4)
 ![ICESat points](./resources/sample_img/glas_combined.png)
-#### Snow-covered area for Mt. Rainier computed from Landsat-8 multi-spectral satellite imagery (module 5)
+#### Estimating snow-covered area for Mt. Rainier from Landsat-8 multi-spectral satellite imagery (module 5)
 ![Rainer LS8 Snowcover](./resources/sample_img/rainier_LS8_snowcover.png)
 #### Raster DEM analysis to estimate impacts of sea level rise and hazards near WA highways (module 7)
 ![whidbey_slr](./resources/sample_img/whidbey_slr.png)
@@ -32,18 +32,18 @@ This course explores geospatial data processing, analysis, interpretation, and v
 ![ERA5 WA](./resources/sample_img/era5_wa_2panel.png)
 
 ## Modules
-The course is organized into 10 week-long modules that build on previous weeks. Each module contains background reading assignments and Jupyter notebooks with demo and exercises. 
+The course is organized into 10 week-long modules. Each module contains background reading assignments and Jupyter notebooks with introduction, demo, and lab exercises. The material builds on content and datasets from previous weeks.
 
-1. [Shell and git/Github](modules/01_Shell_Github)
-1. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter)
-1. [Numpy, Pandas, Matplotlib](modules/03_NumPy_Pandas_Matplotlib)
-1. [Vector 1: Geopandas, CRS, Projections](modules/04_Vector1_Geopandas_CRS_Proj)
-1. [Raster 1: GDAL, rasterio, Landsat-8 satellite imagery](modules/05_Raster1_GDAL_rasterio_LS8)
-1. [Vector 2: Geometries, Spatial Operations, Visualization](modules/06_Vector2_Geometries_SpatialOps_Viz)
-1. [Raster 2: Warping, Clipping, Sampling, DEM Analysis](modules/07_Raster2_DEMs_Warp_Clip_Sample)
-1. [Vector time series, SNOTEL data](modules/08_Vector_TimeSeries_SNOTEL)
-1. [ND arrays, xarray, ERA5 climate reanalysis data](modules/09_NDarrays_xarray_ERA5)
-1. [Pangeo, Dask, conda](modules/10_Conda_Pangeo_Dask)
+#### 1. [Shell and git/Github](modules/01_Shell_Github)
+#### 2. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter)
+#### 3. [Numpy, Pandas, Matplotlib](modules/03_NumPy_Pandas_Matplotlib)
+#### 4. [Vector 1: Geopandas, CRS, Projections](modules/04_Vector1_Geopandas_CRS_Proj)
+#### 5. [Raster 1: GDAL, rasterio, Landsat-8 satellite imagery](modules/05_Raster1_GDAL_rasterio_LS8)
+#### 6. [Vector 2: Geometries, Spatial Operations, Visualization](modules/06_Vector2_Geometries_SpatialOps_Viz)
+#### 7. [Raster 2: Warping, Clipping, Sampling, DEM Analysis](modules/07_Raster2_DEMs_Warp_Clip_Sample)
+#### 8. [Vector time series, SNOTEL data](modules/08_Vector_TimeSeries_SNOTEL)
+#### 9. [ND arrays, xarray, ERA5 climate reanalysis data](modules/09_NDarrays_xarray_ERA5)
+#### 10. [Pangeo, Dask, conda](modules/10_Conda_Pangeo_Dask)
 
 ## Syllabus
 https://docs.google.com/document/d/17HRRH7rgbAR3-BnJP9qKdAheam8_qngzyuNO45FWjxQ/edit?usp=sharing
