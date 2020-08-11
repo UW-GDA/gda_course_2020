@@ -1,10 +1,12 @@
 # Geospatial Data Analysis with Python
-#### Course material from the Winter 2020 offering at the University of Washington (CEE498/CEWA599)  
-
+### Course material from the Winter 2020 offering at the University of Washington (CEE498/CEWA599)  
 David Shean  
 Civil and Environmental Engineering  
 University of Washington  
-https://dshean.github.io
+https://dshean.github.io  
+
+[![DOI](https://zenodo.org/badge/249843620.svg)](https://zenodo.org/badge/latestdoi/249843620)
+[![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/gda_2020/master?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_2020%26amp%3Bbranch=master%26amp%3Burlpath=lab)  
 
 ## Overview
 This course explores geospatial data processing, analysis, interpretation, and visualization techniques using Python and open-source tools/libraries. We will explore fundamental concepts and real-world data science applications involving a variety of large geospatial datasets.
@@ -99,9 +101,13 @@ Many individuals have contributed to the content development and infrastructure 
 * Friedrich Knuth, Shashank Bhushan, and Michelle Hu provided assistance during lab periods in 2020. Friedrich Knuth provided initial material on conda.
 * Anthony Arendt and the UW eScience Geohackweek leadership team for providing a foundation and resources for interactive education and software development
 
-## Citation
-[Insert Zenodo DOI]
-
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
 The content of this repository is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>, and the embedded source code is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+  
+## Citation
+[![DOI](https://zenodo.org/badge/249843620.svg)](https://zenodo.org/badge/latestdoi/249843620)  
+If you use content or code in a publication, please cite as:  
+> Shean, D. (2020), Geospatial Data Analysis with Python: Course material from the Winter 2020 offering at the University of Washington (CEE498/CEWA599), Zenodo, http://doi.org/10.5281/zenodo.3978778  
+
+If you enjoy this material, or you use some of this material in your course, please show your support by clicking the "Star" button in upper right corner of the repo page.  Thanks!
