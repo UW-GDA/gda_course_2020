@@ -16,11 +16,10 @@ This course explores geospatial data processing, analysis, interpretation, and v
 - Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering in week 03 lab)
 - Examples focus on Washington state and Western U.S.
 
-## Samples 
-#### ICESat satellite laser altimetry data over Western U.S. (modules 3-5)
-![ICESat points](./resources/sample_img/glas_points_ctx.png)
-![ICESat filtering](./resources/sample_img/glas_srtmdiff_outliers.png)
-#### Snow-covered area for Mt. Rainier computed from Landsat-8 multi-spectral satellite imagery (module 6)
+## Sample plots 
+#### ICESat satellite laser altimetry data over Western U.S. (modules 3-4)
+![ICESat points](./resources/sample_img/glas_combined.png)
+#### Snow-covered area for Mt. Rainier computed from Landsat-8 multi-spectral satellite imagery (module 5)
 ![Rainer LS8 Snowcover](./resources/sample_img/rainier_LS8_snowcover.png)
 #### Raster DEM analysis to estimate impacts of sea level rise and hazards near WA highways (module 7)
 ![whidbey_slr](./resources/sample_img/whidbey_slr.png)
@@ -33,6 +32,8 @@ This course explores geospatial data processing, analysis, interpretation, and v
 ![ERA5 WA](./resources/sample_img/era5_wa_2panel.png)
 
 ## Modules
+The course is organized into 10 week-long modules that build on previous weeks. Each module contains background reading assignments and Jupyter notebooks with demo and exercises. 
+
 1. [Shell and git/Github](modules/01_Shell_Github)
 1. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter)
 1. [Numpy, Pandas, Matplotlib](modules/03_NumPy_Pandas_Matplotlib)
