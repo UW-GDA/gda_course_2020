@@ -1,4 +1,5 @@
-# Instructor lessons learned
+# Instructor thoughts and lessons learned
+This work-in-progress list contains a short list of thoughts and tips on various platforms and other aspects of the course
 
 ## Slack
 * Essential

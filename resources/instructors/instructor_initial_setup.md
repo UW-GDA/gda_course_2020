@@ -64,22 +64,7 @@ These will have different priveleges, and can be selectively assigned to repos i
 1. Upload list of student names, email or github usernames 
 
 ## Jupyterhub
-#### Work with UW-IT template
-See sample for 2020 here: https://github.com/UW-GDA/uwgda-image
-Most of the user-level customization is found in the `binder` subdirectory
-We used a `dev` branch for modifications/tests and then merged into `master` after new image passed tests.
-
-#### Add any core utilities to `apt.txt`
-This includes common command line tools like `wget` or text editors like `vim`.    
-https://github.com/UW-GDA/uwgda-image/blob/master/binder/apt.txt
-
-#### Create a conda Python environment for the course
-Include all packages that will be needed, with version numbers if desired.  Can update this list throughout the course, and backend continuous integration will automatically rebuild and deploy the updated image.  
-https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment.yml
-
-### Add any custom Jupyter lab extensions
-Some useful interactive visualization tools (pyviz, leaflet), Dask integration, etc.  
-https://github.com/UW-GDA/uwgda-image/blob/master/binder/postBuild
+See Initial Setup section in general [Jupyter Notes](../jupyter_notes.md)
 
 ## ReviewNB
 * https://github.com/marketplace/review-notebook-app

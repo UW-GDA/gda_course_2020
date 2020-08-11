@@ -8,39 +8,73 @@ These are a set of loosely organized notes, tips, tricks and gotchas for Jupyter
 Additional UW eScience Hackweek resources on initial Jupyterhub setup and navigation:
 https://icesat-2hackweek.github.io/learning-resources/preliminary/jupyterhub/
 
-## Jupyterhub
+# Jupyterhub
 
-### Default 2020 student server configuration
+## Initial Setup
+
+#### Work with UW-IT template 
+See sample for 2020 here: https://github.com/UW-GDA/uwgda-image
+Most of the user-level customization is found in the `binder` subdirectory.
+We used a `dev` branch to submit Pull Requests with modifications (e.g., adding a new package) and then merged into `master` after tests completed. 
+
+#### Add any core utilities to `apt.txt`
+This includes common command line tools like `wget` or text editors like `vim`. Sample:    
+https://github.com/UW-GDA/uwgda-image/blob/master/binder/apt.txt
+
+#### Create a shared conda environment 
+Include all packages that will be needed for the course, with version numbers if desired.
+Sample: https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment.yml
+Can update this list throughout the course, and continuous integration will automatically rebuild and deploy the updated image.  
+
+#### Add any custom Jupyter lab extensions
+Add useful interactive visualization tools (pyviz, leaflet), Dask integration, etc.  
+Sample: https://github.com/UW-GDA/uwgda-image/blob/master/binder/postBuild
+See available extensions: https://github.com/topics/jupyterlab-extension 
+
+## Default 2020 student server configuration
 * 2 CPU
-* 8 GB RAM (increased mid-quarter)
+* 8 GB RAM 
 * 40 GB storage
 
-### Logging out
-Please remember to log out of the Jupyterhub when you are done for the day. It shuts down all your resources, saves money, and provides a clean slate the next time you log in, which can help avoid various issues listed below.
+## Logging out
+Please remember to log out of Jupyterhub when you are done for the day. This will shut down your server (but preserves all files and lab state).  
+Not only will this save money (we'd like to avoid paying for cloud computing resources while you're sleeping), and provides a clean slate the next time you log in, which can help avoid various issues listed below.
 
-### Troubleshooting 
-If something is not working or the text in notebook cells looks strange or "cut off", first try reloading the tab/window in your browser.
+## Troubleshooting
 
-### Restarting Jupyterhub Server
-* All students have the ability to stop and restart their own server on the Jupyterhub (don’t need to ask instructor or IT to help).
-* File --> Hub Control Panel --> Stop My Server (wait a ~30 seconds, then start again)
-* May need to restart server to fetch the latest environment (i.e., new packages added to default conda environment), or as a first troubleshooting step if you are encountering unexplained issues.
+### 1. Reload the tab in your browser
+* Can resolve issues with notebook cells that appear strange or "cut off"
+* If you have unsaved changes, save the notebook, then reload
 
-### Common Errors
+### 2. Restart Jupyterhub Server
+* All students have the ability to stop and restart their own server on the Jupyterhub (don’t need to ask instructor or IT).
+* **File --> Hub Control Panel --> Stop My Server (wait a ~30 seconds, then start again)**
+* After image is updated (e.g., new packages added to default conda environment), all users will need to restart their server to see changes.
+
+### 3. Review the list of common errors and solutions below
+
+### 4. Post a message to #IT_help on the class Slack workspace
+* Important to post to public channel, as other students can chime in to help, and if this is a larger issue, confirm similar experiences
+* Provide detailed report, with copy/paste of error messages, screenshots, etc. to help diagnose
+* Course instructor and IT help will provide assistance
+
+## Common Jupyterhub Errors
 #### `Kernel Restarting`
     * Likely ran out of memory. 
     * Can "Restart Kernel and Run up to selected cell" to restore state
     * Remember, closing a notebook tab in JupyterLab interface doesn't actually shut down the kernel! If you have opened/run many notebooks during a session, you may start to experience performance issues. 
     * To remedy, click the "Running Terminals and Kernels" button (square inside a circle) on the left panel. It will show you all of the kernels  that are running. Shut down any that you no longer need.
+
 #### `Dask Server Error`
-    * If you see this, it is likely that your server was shut down due to inactivity.  Reload the page in your browser, and log back onto the Hub.
+    * If you see this, it is likely that your server was shut down due to inactivity. Reload the page in your browser, and log back onto the Hub.
+
 #### `File Save Error for *.ipynb` or `Failed to write *.ipynb`
     * Temporary network interruption, dismiss and try manually saving
     * Check to make sure you haven't filled the disk (available storage in your home directory)
         * `cd ~ ; df .` (should be less than 100%)
         * If disk is full, delete some files from `/home/jovyan`
       
-## Jupyter notebooks
+# Jupyter notebooks
 
 ### Disable Jupyter Notebook Warnings
 ```

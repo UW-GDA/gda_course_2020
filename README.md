@@ -97,7 +97,7 @@ Many individuals have contributed to the content development and infrastructure 
 * Chris Land (UW-IT) and Scott Henderson (UW eScience/ESS) provided Jupyterhub configuration and support during 2020
 * Amanda Tan (UW eScience) provided Jupyterhub configuration and support during 2019
 * Bill Schaefer (UW-IT) and Rob Fatland (UW-IT/eScience) provided spport and management during 2020 and 2019, respectively
-* Friedrich Knuth provided material on conda and support
+* Friedrich Knuth, Shashank Bhushan, and Michelle Hu provided assistance during lab periods in 2020. Friedrich Knuth provided initial material on conda.
 * Anthony Arendt and the UW eScience Geohackweek leadership team for providing a foundation and resources for interactive education and software development
 
 ## Citation
