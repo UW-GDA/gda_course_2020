@@ -7,7 +7,7 @@ We use multiple platforms during this course, which required some prep before th
 1. Go to https://slack.com/create
 1. Recommend naming with course name and year:
     * Geospatial Data Analysis: W2020
-    * uwgda2020.slack.com
+    * In settings, scroll down to "Workspace Name & URL" and update to uwgda2020.slack.com
 1. Optional: add a unique icon (useful if you are logged into many workspaces on Desktop app)
 1. For a 10-week course with ~15 students, the free plan was sufficient. For larger classes, you might hit the 10K message limit during the quarter, in which case, some early messages will not longer be visible.
 
@@ -15,7 +15,10 @@ We use multiple platforms during this course, which required some prep before th
 1. Add private `#admin` channel for TAs, IT staff
 1. Add public `#it_help` channel for students to get help with Jupyter issues
 1. Add public `#project` channel for discussion of student projects (will see more activity later in quarter)
-1. On the `#general` channel, post a new welcome message and create a quick-reference list of links to the various resources that will be used throughout the course (Jupyterhub url, Github Organization url, etc.).  Pin this by clicking the three dots in upper right corner o fthe message and selecting "Pin to channel".  Add a note that students can always find this list by clicking the Pin icon near top of the channel.
+1. Limit permissions on the `#general` channel so only admins and specific users can post
+1. On the `#general` channel, post a new welcome message and create a quick-reference list of links to the various resources that will be used throughout the course (Jupyterhub url, Github Organization url, etc.).  
+   * Pin this by clicking the three dots in upper right corner o fthe message and selecting "Pin to channel".  
+   * Add a note that students can always find this list by clicking the Pin icon near top of the channel.
 1. Review and modify additional workspace settings and configuration on the Slack website
 1. Can use "Manage members" to set TAs or other course admin to "Workspace Admin" if desired.
 
